@@ -18,4 +18,12 @@
 >    + 코드 1개 당 8분의 1박자로 구분되어 마디수, 박자 구분이 되어있는 기존 'chord_progression' 변수에서 마디 구분을 없앰
 ![그림1](https://user-images.githubusercontent.com/102268412/204111013-dc9095f3-8163-4e3e-9514-605ff22ee301.jpg)
 
+![그림2](https://user-images.githubusercontent.com/102268412/204111030-5dbb8766-56be-4304-a183-b53f161f3e9d.jpg)
+
+![그림3](https://user-images.githubusercontent.com/102268412/204111059-d0263800-e6d5-4085-8521-8ff631a79ed9.jpg)
+
+![그림4](https://user-images.githubusercontent.com/102268412/204111065-bf365f58-8b05-4281-9149-dc3c7c5b859e.jpg)
+
+![그림5](https://user-images.githubusercontent.com/102268412/204111074-c767e81d-de69-4bf1-abb1-bfbb975d0eaf.jpg)
+
 
