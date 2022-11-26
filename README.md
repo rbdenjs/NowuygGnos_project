@@ -15,5 +15,7 @@
 
 ### 2) __수식 전개__
 > + a) Step 1 마디 구분을 없앤 'chord_list' 변수 생성
->    + 코드 1개 당 8분의 1박자로 구분되어 마디수, 박자 구분이 되어있는 기존 'chord_progression' 변수에서 마디 구분을 없앰 
+>    + 코드 1개 당 8분의 1박자로 구분되어 마디수, 박자 구분이 되어있는 기존 'chord_progression' 변수에서 마디 구분을 없앰
+![그림1](https://user-images.githubusercontent.com/102268412/204111013-dc9095f3-8163-4e3e-9514-605ff22ee301.jpg)
+
 
