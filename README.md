@@ -43,5 +43,5 @@
 > + B) Bag of Chord vector이 굉장히 sparse해 코사인 유사도가 0인 case 역시 상당수 존재함. <br><br>
 > + A & B로 인해 코사인 유사도가 0 or 1에 편향돼 scaling하는데 어려움이 발생함. <br><br>
 > + C) 정량평가가 어려움.
->    + 'chord_prog_token' 변수를 만들 때, n = 2 or n = 3 등 다양한 n으로 수식을 전개하였으나 무엇이 낫다라는 명확한 기준이 부재함.
+>    + 'chord_prog_token' 변수를 만들 때, n = 2 or n = 3 등 다양한 n으로 수식을 전개하였으나 무엇이 낫다라는 명확한 기준이 부재함. <br><br>
 > + D) 새로운 commu data가 추가될 때 update의 cost가 상당함.
