@@ -36,4 +36,12 @@
 >    + E) D에서 생성한 matrix를 전치시켜 Bag of Chord vector 생성 및 코사인 유사도 계산
 >    ![그림5](https://user-images.githubusercontent.com/102268412/204111074-c767e81d-de69-4bf1-abb1-bfbb975d0eaf.jpg) <br><br>
 
+<br>
 
+### 3) __한계__
+> + A) 마디수를 고려하지 않아 코드 간 진행은 같지만 마디수만 다른 두 commu data를 구분할 수 있는 수단이 bpm_group으로 한정되어 코사인 유사도가 1인 case가 상당수 존재함. <br><br>
+> + B) Bag of Chord vector이 굉장히 sparse해 코사인 유사도가 0인 case 역시 상당수 존재함. <br><br>
+> + A & B로 인해 코사인 유사도가 0 or 1에 편향돼 scaling하는데 어려움이 발생함. <br><br>
+> + C) 정량평가가 어려움.
+>    + 'chord_prog_token' 변수를 만들 때, n = 2 or n = 3 등 다양한 n으로 수식을 전개하였으나 무엇이 낫다라는 명확한 기준이 부재함.
+> + D) 새로운 commu data가 추가될 때 update의 cost가 상당함.
